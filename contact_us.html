@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Yujan Pharmacy/ Contact_Us</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://cdn.pixabay.com/photo/2012/04/02/12/47/medicine-24399_1280.png" alt="Logo"
+                        width="35" height="30" class="d-inline-block align-text-top">
+                    Yujan Pharmacy
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid my-3">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.666325554652!2d83.464391975181!3d27.69670607618853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399687fb57cbec8d%3A0x557e27f2a266a0be!2sYujan%20Pharmacy%2C%20Butwal!5e0!3m2!1sen!2snp!4v1696613463923!5m2!1sen!2snp"
+                width="800" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container my-5 contact_div">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" required>
+                    <div class="valid-tooltip">Looks good!</div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" required>
+                    <div class="valid-tooltip">Looks good!</div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltipUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername"
+                            aria-describedby="validationTooltipUsernamePrepend" required>
+                        <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <label for="validationTooltip03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required>
+                    <div class="invalid-tooltip">Please provide a valid city.</div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <label for="validationTooltip04" class="form-label">State</label>
+                    <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>Koshi</option>
+                        <option>Madesh</option>
+                        <option>Bagmati</option>
+                        <option>Gandaki</option>
+                        <option>Lumbini</option>
+                        <option>Karnali</option>
+                        <option>Sudurpashchim</option>
+                    </select>
+                    <div class="invalid-tooltip">Please select a valid state.</div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <label for="validationTooltip05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip05" required>
+                    <div class="invalid-tooltip">Please provide a valid zip.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div></div>
+                <div class="container d-flex mb-3">
+                    <label class="form-label">Gender : </label>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            Others
+                        </label>
+                    </div>
+                </div>
+                <div class="container d-block">
+                    <label class="form-label">Prescription : </label>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary mybtn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Follow Us :
+        <i class="fa fa-facebook-square mx-1"></i>
+        <i class="fa fa-instagram mx-1"></i>
+        <i class="fa fa-linkedin-square mx-1"></i>
+        <i class="fa fa-twitter-square mx-1"></i>
+        <hr>
+        <p class="copyright">&copy; 2023 Yujan Pharmacy. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
